@@ -34,7 +34,7 @@
         <div class="flex flex-row my-10">
             <div class="px-10 flex items-center">
                 <a class="text-gray-500 dark:text-gray-400"
-                    href="{{ route('Rollercoaster.create') }}">
+                    href="/Newsbrief">
                     Aanmelden Nieuwsbrief
                 </a>
             </div>

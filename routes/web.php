@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RollercoasterController;
+use App\Http\Controllers\NewsbriefController;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,6 +31,9 @@ Route::middleware('auth')->group(function () {
 });
 
 
+Route::middleware('auth')->group(function () {
+    route::get('/Newsbrief' , [NewsbriefController::class,'index']);
+});
 
 Route::middleware('auth')->group(function () {
     Route::get('/Rollercoaster', [RollercoasterController::class,'index']);

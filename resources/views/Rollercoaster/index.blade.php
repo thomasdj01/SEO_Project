@@ -26,7 +26,7 @@
         <div class="w-2/4">
             <div class="max-h-85 h-screen">
                 <!-- Pagina's per div -->
-                <div class="py-10 bg-slate-600"> 
+                <div class="py-10 bg-slate-300"> 
                     <!-- Header -->
                     <div class="font-bold m-5">
                         Nieuw binnen!

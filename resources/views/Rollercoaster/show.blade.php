@@ -1,6 +1,8 @@
 @extends('Rollercoaster.layout')
-  
+
 @section('content')
+
+@include('layouts.navigation')
         <div>
             <a class="overflow-x-hidden focus:outline-none text-white bg-red-700 hover:bg-red-800 font-medium text-sm px-5 py-2.5 dark:bg-red-600 dark:hover:bg-red-700" href="{{ route('Rollercoaster.index') }}"> Back</a>
         </div>
