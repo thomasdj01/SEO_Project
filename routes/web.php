@@ -32,11 +32,13 @@ Route::middleware('auth')->group(function () {
 
 
 Route::middleware('auth')->group(function () {
-    route::get('/Newsbrief' , [NewsbriefController::class,'index']);
+    Route::get('/Rollercoaster/create', [RollercoasterController::class,'index']);
 });
 
+    route::get('/Newsbrief' , [NewsbriefController::class,'index']);
     Route::get('/Rollercoaster', [RollercoasterController::class,'index']);
-
+    Route::get('/article' , [NewsbriefController::class,'index']);
     Route::resource('Rollercoaster', RollercoasterController::class);
+    Route::resource('Article', NewsbriefController::class);
 
 require __DIR__.'/auth.php';

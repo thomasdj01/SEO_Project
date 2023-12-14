@@ -34,8 +34,8 @@
                 <div class="flex"> 
                     <!-- Header -->
                     <div class="flex-col">
-                        <div class="p-5"><img src="https://wiki.dave.eu/images/4/47/Placeholder.png" height="250px" width="250px"></div>
-                        <div class="font-normal m-5">
+                        <div><img src="https://wiki.dave.eu/images/4/47/Placeholder.png" height="300px" width="300px"></div>
+                        <div class="font-bold m-5">
                             <textarea name="text3" placeholder="tekst" id="textbox1"></textarea>
                         </div>
                     </div>
