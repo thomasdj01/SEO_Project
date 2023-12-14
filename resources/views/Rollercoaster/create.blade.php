@@ -3,7 +3,6 @@
 @section('content')
 
 @include('layouts.navigation')
-<div class="w-100 flex pt-[141px]">
     
     @if ($errors->any())
     <div class="w-100">
@@ -17,34 +16,49 @@
             </div>
     </div>
     @endif
-    <div class="w-100 fixed">
-        <form action="{{ route('Rollercoaster.store') }}" method="POST">
-        @csrf
-  
-        <div class="w-100">
-            <div class="col-xs-12 col-sm-12 col-md-12">
-                <div class="form-group">
-                    <strong>Maker:</strong>
-                    <input type="text" name="Maker" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Maker">
-                </div>
+    <form action="{{ route('Rollercoaster.store') }}" method="POST">
+    @csrf
+    <div class="w-100 flex pt-[141px] h-screen bg-slate-400">
+        <div class="w-1/4 left-0">
+            <!-- Header -->
+            <div class="font-bold m-5">
+                <input type="text" class="w-full" name="text1" placeholder="Hoofdtekst">
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12">
-                <div class="form-group">
-                    <strong>Lengte:</strong>
-                    <input type="text" name="Lengte" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Lengte">
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-12">
-                <div class="form-group">
-                    <strong>Hoogte:</strong>
-                    <input type="text" name="Hoogte" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Hoogte">
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-                    <button type="submit" class="focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">Submit</button>
+            <!-- Body -->
+            <div class="font-normal m-5">
+                <textarea name="text2" class="w-full" placeholder="text"></textarea>
             </div>
         </div>
-        </form> 
-    </div>
-</div>
+        <div class="h-full w-3/4 bg-slate-300 right-0">
+                <!-- Pagina's per div -->
+                <div class="flex"> 
+                    <!-- Header -->
+                    <div class="flex-col">
+                        <div><img src="https://wiki.dave.eu/images/4/47/Placeholder.png" height="300px" width="300px"></div>
+                        <div class="font-bold m-5">
+                            <textarea name="text3" placeholder="tekst" id="textbox1"></textarea>
+                        </div>
+                    </div>
+                    <div class="w-full"> 
+                        <div class="font-normal m-5">
+                            <textarea name="text4" placeholder="tekst" id="textbox2"></textarea>
+                        </div>
+                    </div>
+                    
+                    <!-- Body -->
+                </div>
+            </div>
+        </div>
+   </div>
+    </form>
 @endsection
+<style>
+#textbox1{
+    height: 100%;
+    width: 100%;
+}
+#textbox2{
+    height: 100%;
+    width: 100%;
+}
+</style>

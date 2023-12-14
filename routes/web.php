@@ -35,10 +35,8 @@ Route::middleware('auth')->group(function () {
     route::get('/Newsbrief' , [NewsbriefController::class,'index']);
 });
 
-Route::middleware('auth')->group(function () {
     Route::get('/Rollercoaster', [RollercoasterController::class,'index']);
 
     Route::resource('Rollercoaster', RollercoasterController::class);
-});
 
 require __DIR__.'/auth.php';

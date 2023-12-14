@@ -57,8 +57,8 @@
         </div>
         <div class="w-1/4 fixed right-0">
             <div class="font-bold m-5"> Advertentie </div>
-            <div><img src=""></div>
-            <div class="font-normal m-2.5"> Linkje </div>
+            <div><img src="https://wiki.dave.eu/images/4/47/Placeholder.png"></div>
+            <div class="font-normal m-2.5"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend quam a magna malesuada, at tincidunt nisi rhoncus. </div>
         </div>
    </div>
   
