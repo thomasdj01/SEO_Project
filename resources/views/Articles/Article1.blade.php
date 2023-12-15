@@ -22,11 +22,11 @@
         <div class="w-1/4 left-0">
             <!-- Header -->
             <div class="font-bold m-5">
-                <input type="text" class="w-full" name="text1" placeholder="Hoofdtekst">
+                Werkend in bedrijven
             </div>
             <!-- Body -->
             <div class="font-normal m-5">
-                <textarea name="text2" class="w-full" placeholder="text"></textarea>
+                bla bla bla
             </div>
         </div>
         <div class="h-full w-3/4 bg-slate-300 right-0">
@@ -36,13 +36,13 @@
                     <div class="flex-col">
                         <div class="p-5"><img src="https://wiki.dave.eu/images/4/47/Placeholder.png" height="250px" width="250px"></div>
                         <div class="font-normal m-5">
-                            <textarea name="text3" placeholder="tekst" id="textbox1"></textarea>
+                            bla bla bla
                         </div>
                     </div>
                     </form>
                     <div class="w-full"> 
                         <div class="font-normal m-5">
-                            <textarea name="text4" placeholder="tekst" id="textbox2"></textarea>
+                            bla bla bla
                         </div>
                     </div>
                     

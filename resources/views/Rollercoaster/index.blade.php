@@ -37,7 +37,7 @@
                     </div>
                 </div>
                 <!-- Pagina's per div -->
-                <div class="py-10"> 
+                <a href="/Rollercoaster/show/1" class="py-10"> 
                     <!-- Header -->
                     <div class="font-bold m-5">
                         Ongeluk? Servers microsoft neer!
@@ -50,7 +50,7 @@
                         Fusce vehicula tellus lorem, eu dictum augue efficitur feugiat. Nam accumsan sem mi, nec aliquam sem efficitur vitae. Integer nec arcu ullamcorper, blandit odio et, commodo purus. Phasellus interdum semper nulla, nec hendrerit neque ultricies ut. Duis tempor tellus et tortor dictum efficitur. Pellentesque sodales orci et varius lacinia. Sed accumsan lacus odio, quis cursus turpis pellentesque in.
                         Quisque mollis tempor purus nec fringilla. Phasellus varius justo nunc, non viverra neque sodales eu. Aenean nisi elit, convallis at imperdiet eget, maximus elementum justo. In hac habitasse platea dictumst. Ut sit amet luctus diam. Donec maximus ultrices urna, eu consequat magna laoreet sit amet. Sed vel aliquet mauris. Proin dignissim tellus iaculis interdum aliquam.
                     </div>
-                </div>
+                </a>
             </div>
         </div>
         <div class="w-1/4">

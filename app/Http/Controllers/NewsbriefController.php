@@ -13,7 +13,7 @@ class NewsbriefController extends Controller
     }
     public function show(Article $Article)
     {
-        return view('Rollercoaster.news',compact('Article'));
+        return view('Articles.Article1',compact('Article'));
     }
 
 }
