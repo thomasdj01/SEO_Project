@@ -14,7 +14,7 @@
             <!-- Start logout en profile -->
             <div class="flex items-center space-x-4">
                 @if(Auth::user())
-                    <div class="items-center">
+                    <div class="items-center dark:text-gray-400">
                         <x-dropdown-link :href="route('profile.edit')">
                             Welkom: {{ __(Auth::user()->name) }}
                         </x-dropdown-link>
@@ -29,8 +29,8 @@
                         </form>
                     </div>
                 @else
-                    <div class="items-center font-semibold text-gray-600">
-                        Welkom: Gast
+                    <div class="items-center font-semibold text-gray-400">
+                        Welkom: <a class="text-bold">Gast</a>
                     </div>
                     <div>
                         @auth

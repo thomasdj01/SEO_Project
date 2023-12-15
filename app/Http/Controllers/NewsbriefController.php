@@ -15,5 +15,8 @@ class NewsbriefController extends Controller
     {
         return view('Articles.Article1',compact('Article'));
     }
-
+    public function show2(Article $Article)
+    {
+        return view('Articles.Article0',compact('Article'));
+    }
 }

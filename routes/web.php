@@ -35,6 +35,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/Rollercoaster/create', [RollercoasterController::class,'index']);
 });
     route::get('/Rollercoaster/show/1' , [NewsbriefController::class,'show']);
+    route::get('/Rollercoaster/show/0' , [NewsbriefController::class,'show2']);
     route::get('/Newsbrief' , [NewsbriefController::class,'index']);
     Route::get('/Rollercoaster', [RollercoasterController::class,'index']);
     Route::resource('Rollercoaster', RollercoasterController::class);
